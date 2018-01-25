@@ -1,0 +1,25 @@
+{
+  "name": "juanalvarado.me",
+  "version": "1.0.0",
+  "description": "My site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalvarado91/jalvarado91.github.io.git"
+  },
+  "author": "Juan Alvarado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jalvarado91/jalvarado91.github.io/issues"
+  },
+  "homepage": "https://github.com/jalvarado91/jalvarado91.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-sass": "^2.0.4"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>How to run on any ios device.</title>
+<style>
+@media (prefers-color-scheme: dark)
+{
+body
+{
+background-color: #000;
+color: #fff;
+}
+</style>
+</head>
+
+</body>
+</html>
+<h1>How to run this on your iOS device.</h1>
+<p>1. Copy the zip file to any mac, linux, or other unix based system </p>
+<p>2. Double click the zip file to decompress it. You will get a folder named FIU_AR_QUICK_LOOK</p>
+<p>3. Open a terminal window.</p>
+<p>4. Type cd, then drag the folder into the terminal, and press enter.</p>
+<p>5. Type ipconfig getifaddr en0 into the terminal if you are on a mac, or hostname -i if on linux/unix and press enter. You will get the local IP address of your computer. You will get something like 10.0.0.8, your's will likely be different, so take note of it.</p>
+<p>6. Type python -m SimpleHTTPServer into the terminal, this will start the server on your local network.</p>
+<p>7. On your iPhone open Safari, and type in http:// followed by the address obtained in step 5. You will enter something like http://10.0.0.8</p>
+<p>8. Now tap on any link, and you are now ready to enjoy AR quick look on your device.</p>
+
+<p><i>AR Quick look requires an iOS device with an A9 chip or later running iOS 12 or later.</i></p>
+</body>
+</html>
